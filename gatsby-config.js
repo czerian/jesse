@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `The Great Gatsby + Jack`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Jesse Kyalo | Director | Filmmaker`,
+    description: `Jesse Kyalo is a Kenyan director and one of the most recognized filmmakers in Africa`,
+    author: `bryanczar.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,17 +18,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Jesse Kyalo`,
+        short_name: `jessekyalo.com`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/gatsby-icon.png`, 
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
